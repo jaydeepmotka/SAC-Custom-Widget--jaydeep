@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-chart",
-			"url": "https://e1df-2405-201-2014-3076-540e-1454-c28e-b336.ngrok.io/static/Amchart_pie.js",
+			"url": "https://jaydeepmotka.github.io/SAC-Custom-Widget--jaydeep/public/google/Amchart_pie.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
