@@ -134,7 +134,7 @@ series3.tooltipText = "{name}: [bold]{valueY}[/]";
 series3.stacked = true;
 
 // Add cursor
-chart.cursor = new am4charts.XYCursor();
+// chart.cursor = new am4charts.XYCursor();
 
 		}
 	}
