@@ -24,13 +24,14 @@ var getScriptPromisify = (src) => {
 			
 		}
 
-		async render() {
+		async render(rs) {
 
 			await getScriptPromisify("https://cdn.amcharts.com/lib/4/core.js");
 			await getScriptPromisify("https://cdn.amcharts.com/lib/4/charts.js");
 			await getScriptPromisify("https://cdn.amcharts.com/lib/4/themes/animated.js");
 			await getScriptPromisify("https://cdn.amcharts.com/lib/4/themes/kelly.js");
 
+      console.log(rs);
 
 
 
