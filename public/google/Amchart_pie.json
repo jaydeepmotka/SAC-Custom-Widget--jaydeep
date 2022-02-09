@@ -29,7 +29,14 @@
 	},
 	"methods": {
 		"render": {
-			"description": "To Plot Chart"
+			"description": "To Plot Chart",
+			"parameters": [
+				{
+					"name": "newValue",
+					"type": "any",
+					"description": "The new country name."
+				}
+			]
 		}
 	},
 	"events": {
