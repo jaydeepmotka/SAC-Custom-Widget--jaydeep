@@ -1,0 +1,40 @@
+{
+	"id": "com.sap.sample.chart",
+	"version": "3.0.0",
+	"name": "Amchartcolumchart",
+	"description": "columchart",
+	"newInstancePrefix": "columchart",
+	"icon": "",
+	"vendor": "JD",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-chart",
+			"url": "https://e1df-2405-201-2014-3076-540e-1454-c28e-b336.ngrok.io/static/Amchart_diff.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 600
+		}
+	},
+	"methods": {
+		"render": {
+			"description": "To Plot Chart"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}
